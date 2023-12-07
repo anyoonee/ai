@@ -1,0 +1,19 @@
+package javaBasic1204.ch04.sec02;
+
+public class while문연습 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		//246810 출력
+		
+		int a = 2;
+		while (a<=10) {
+			a=a+2;
+			System.out.println(a);
+		}
+		
+		
+	}
+
+}

@@ -1,0 +1,24 @@
+package javaBasic1204.ch03.sec02;
+
+import java.util.Scanner;
+
+public class 산술연산자 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in); //키보드로 글자 입력하는 클래스
+		int kor = sc.nextInt();
+		
+		System.out.println(kor);
+		
+		double rate = sc.nextDouble();
+		System.out.println(rate);
+		
+		// true
+		
+		boolean ox = sc.nextBoolean();
+		System.out.println(ox);
+		
+	}
+
+}

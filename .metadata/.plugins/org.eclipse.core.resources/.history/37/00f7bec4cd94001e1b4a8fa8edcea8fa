@@ -1,0 +1,21 @@
+package javaBasic3;
+
+public class 클래스개념 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		//객체생성하자마자 값을 넣어주기
+		Student st1 = new Student ("230101", "홍길동","AI",100,"010-123-1234");
+		
+		Teacher t1 = new Teacher ("A32", "정현희", "컴퓨터공학부", 100000, "전임", 20);
+		
+		//학번 출력
+		System.out.println(st1.get학번());
+		
+		
+		
+		
+	}
+
+}

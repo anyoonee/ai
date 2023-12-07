@@ -1,0 +1,21 @@
+package javaBasic2.ch05.sec01;
+
+import java.util.Scanner;
+
+public class 참조타입 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int n=10; //스택공간
+		
+		new Scanner(System.in); //new = 힙메모리에 Scanner클래스를 올려주세요.
+		
+		// 힙메모리에 주소를 스택공간의 변수에 저장해야한다.
+		
+		System.out.println(n);
+		
+
+	}
+
+}

@@ -1,0 +1,69 @@
+package javaBasic1204.ch01.sec12;
+
+public class Calculator {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		/*
+		 int x =1;
+		
+		int y =2;
+		int result = x + y;
+		System.out.println(result);
+		*/
+		// 5명 아르바이트생 급여 개산하기
+		// 1명일 경우 급여 계산하기
+		// 형식 변수형태 변수명; 변수명 = 값;
+		//String name1="이순신";
+		String name1;
+		name1="홍길동";
+		int basicPay1 = 50000;
+		String phonenumber1 = "010-1234-1234";
+		String accountNumber1 = "국민 123-12-1234";
+		String dept1 = "알바생";
+		boolean sex1 = true; //남자
+        double tex1 = 0.03;
+        
+        String name2="우간다";
+		int basicPay2 = 40000;
+		String phonenumber2 = "010-1212-1234";
+		String accountNumber2 = "국민 123-1231-1234";
+		String dept2 = "알바생";
+		boolean sex2 = true; //남자
+        double tex2 = 0.01;
+        
+        String name3="홍홍홍";
+		int basicPay3 = 70000;
+		String phonenumber3 = "010-1234-1234";
+		String accountNumber3 = "국민 123-12-1212";
+		String dept3 = "직원";
+		boolean sex3 = true; //남자
+        double tex3 = 0.04;
+        
+        String name4="길길길";
+		int basicPay4 = 50000;
+		String phonenumber4 = "010-3434-1234";
+		String accountNumber4 = "우리 123-12-1234";
+		String dept4 = "알바생";
+		boolean sex4 = false; //여자
+        double tex4 = 0.03;
+        
+        String name5="길길";
+      		int basicPay5 = 45000;
+      		String phonenumber5 = "010-3134-1234";
+      		String accountNumber5 = "우리 123-12-1244";
+      		String dept5 = "알바생";
+      		boolean sex5 = false; //여자
+            double tex5 = 0.02;
+              
+        
+        System.out.println(name1 + " " + basicPay1 + " " + phonenumber1);
+        System.out.println(name2 + " " + basicPay2 + " " + phonenumber2);
+        System.out.println(name3 + " " + basicPay3 + " " + phonenumber3);
+        System.out.println(name4 + " " + basicPay4 + " " + phonenumber4);
+        System.out.println(name5 + " " + basicPay5 + " " + phonenumber5);
+        
+		
+	}
+
+}

@@ -1,0 +1,82 @@
+package javaBasic1204.ch01.sec12;
+
+public class DataTypeEx {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+        // 자료형 - 기본형(정수형 byte int long , 실수형 - flout double, 논리형 - boolean , 문자형 -char)
+		
+		//정수처리
+		byte b1 = 10; // -128 ~ 127
+		System.out.println(b1);
+		
+		short s1 = 3276; // -32768 ~ 32767
+		long lo1 = 901;
+		
+		byte b2 =10;
+		byte b3 =20;
+		
+		long b23 = b2 + b3; // + 연산자 int형으로 처리함 byte형(1) int형(4) byte형(1) = int형 
+		
+		short s2 = -20;
+		short s3 = +20;
+		
+		int reaul23 = s2 -s3; // -40
+		
+		byte b4 = 20;
+		short s4 = 30;
+		
+		long sumb4s4 = b4 + s4;
+		
+		float f1 = 3.14f;
+		float f2 = 3.12345678f; // 소수점 7자까지 출력
+		
+		System.out.println(f1 + " " + f2);
+		
+		double d1 = 3.12345678f;
+		System.out.println( d1 );
+		
+		// 실수형은 float - 4byte 와 double형 - 8byte 
+		
+		float f3=10.23f;
+		float f4=2.45f;
+		
+		float mulf3f4 = f3 * f4;
+		
+		double mulf3f4d = f3* f4;
+		
+		double d3=3.14;
+		double d4=12.65;
+		
+		double d34 = d3 * d4;
+		System.out.println(d34);
+		// float muld3d4f = d3 * d4; 에러발생 작은타입으로 넣어서
+		
+		double resulf3f4 = f3 / f4; // float자료형이 double로 변환됨 - 형변환 (cast연산 자동형 변환)
+		
+		int ii1=10;
+		short ss1=20;
+		
+		float ff1 = ii1; //실수형 = 정수형 형변환 (cast연산 자동형 변환)
+		
+		
+		//수학점수의 거듭제곱 90**2
+		int matDouble = mat*mat;
+		
+		//출력하기
+		System.out.println("합계는" + sum);
+		System.out.println("평균은" + avg);
+		System.out.println("평균은" + avg1);
+		System.out.println("수학점수의 거듭제곱" + matDouble);
+		
+		char ch1 = 'a';
+		System.out.println((int) ch1);
+		
+		
+		
+		
+		
+		
+	}
+
+}

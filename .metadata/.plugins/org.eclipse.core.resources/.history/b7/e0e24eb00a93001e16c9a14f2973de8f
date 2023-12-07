@@ -1,0 +1,28 @@
+package javaBasic1204.ch03.sec01;
+
+public class 변수복습 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		System.out.println("차량명" + "  "+ "차량 총액" + "  " + "인도금" + "  " + "할부원금" + "  " + "상환기간(월)" + "  " + "월납입금");
+		String verhicleName1 = "산타페";
+		int verhicletotalamount1 = 35000000;
+		int deliverymoney1 = 15000000;
+		int installment1 = 20000000;
+		int repaymentperiod1 = 36;
+		double monthlypayment1 = (double) ((verhicletotalamount1+deliverymoney1+installment1 )/repaymentperiod1);
+		
+		System.out.println(verhicleName1 + " " + verhicletotalamount1 + " " + deliverymoney1 + "  " + installment1 + "  " + repaymentperiod1 + "  " + monthlypayment1 );
+		
+		String verhicleName2 = "코란다";
+		int verhicletotalamount2 = 24000000;
+		int deliverymoney2 = 5000000;
+		int installment2 = 19000000;
+		int repaymentperiod2 = 24;
+		
+		System.out.println();
+		
+	}
+
+}

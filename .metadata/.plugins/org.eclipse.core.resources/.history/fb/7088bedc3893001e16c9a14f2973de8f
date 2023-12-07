@@ -1,0 +1,31 @@
+package javaBasic1204.ch04.sec01;
+
+import java.util.Scanner;
+
+public class Switch문 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		//영어 단어 공부 프로그램
+		// 'A' Apple
+		// 'B' Bear
+		// 'C' Cat
+		
+		//키보드입력
+		Scanner sc = new Scanner(System.in);
+		System.out.println("영어 첫글자 입력하기(A~C)");
+		String word =sc.next();
+		System.out.println(word);
+		
+		if( word =="A") {
+			System.out.println("Apple");
+		}else if (word =="B") {
+			System.out.println("Bear");
+		}else if (word =="C") {
+			System.out.println("Cat");
+		};
+			
+	}
+
+}

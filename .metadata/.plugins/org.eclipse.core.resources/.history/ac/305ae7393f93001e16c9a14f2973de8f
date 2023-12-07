@@ -1,0 +1,28 @@
+package javaBasic1204.ch04.sec01;
+
+public class While문 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		// 반복문
+		// 형식 while(조건) { 참이면 수행할문장}
+		// 1~100출력하기
+		
+		int a=1;
+		System.out.println(a);
+		
+		while(a<100) {
+		a++;
+		System.out.println(a);
+		}
+		
+		
+		
+		
+		
+		
+	}
+	
+
+}

@@ -1,0 +1,67 @@
+package javaBasic1204.ch03.sec02;
+
+import java.util.Scanner;
+
+public class 산술연산자 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in); //키보드로 글자 입력하는 클래스
+		
+		//이름 국어 영어 수학 
+		
+	   System.out.print("이름: ");
+	   String name = sc.next();
+	   System.out.println();
+	   
+	   System.out.print("국어: ");
+	   int kor = sc.nextInt();
+	   System.out.println();
+	   
+	   System.out.print("영어: ");
+	   int es = sc.nextInt();
+	   System.out.println();
+	   
+	   System.out.print("수학: ");
+		int math = sc.nextInt();
+		System.out.println();
+		//출력
+		// 홍길동 100 80 90
+		System.out.println(name + "  " + kor + "  " + es + "  " + math);
+		
+		int sum = kor + es + math;
+		
+		// 합계 - 국어
+		
+		int plus = sum - kor;
+		
+		// 평균
+		double average = sum / 3.0;
+		
+		// 수학점수가 홀수?짝수? 는 % 나머지를 구함
+		int matMod = math %2;
+		
+		
+		
+		/*
+		int kor = sc.nextInt();
+		
+		System.out.println(kor);
+		
+		double rate = sc.nextDouble();
+		System.out.println(rate);
+		
+		// true
+		
+		boolean ox = sc.nextBoolean();
+		System.out.println(ox);
+		
+		// 홍길동
+		
+		String name = sc.next();
+		System.out.println(name);
+		*/
+		
+	}
+
+}
