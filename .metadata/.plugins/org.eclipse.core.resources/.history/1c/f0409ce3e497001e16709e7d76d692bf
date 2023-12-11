@@ -1,0 +1,26 @@
+package javaBasic3.ch06.sec14;
+
+import java.util.Scanner;
+
+public class 확인문제6장20번 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Scanner sc = new Scanner(System.in); 
+		
+		BankApplication ba = new BankApplication();
+		String menu = sc.nextLine();
+		
+		while(!menu.equals("5")) {
+			System.out.println("-----------------------------------------------------");
+			System.out.println("1. 계좌 생성   |  2. 계좌목록  | 3. 예금  | 4. 출금 | 5.종료");
+			System.out.println("-----------------------------------------------------");
+			System.out.println("선택 > ");
+			menu = sc.nextLine();
+			
+		}
+
+	}
+
+}

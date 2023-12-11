@@ -8,12 +8,12 @@ public class ClassName250 {
 	static final double RATE = 0.025;
 	
 	//변수 = 변하는 수
-	int a = 10;
+	static int a = 10;
 	
 	//인스턴스 멤버들
 	int field;
-	void method() {
-		a=a+10;
+	static void method() {
+		a = a+10;
 		System.out.println(A + 20);
 		// A=1000; 에러 상수이기때문에 못바꿈
 		};

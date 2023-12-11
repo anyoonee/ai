@@ -1,0 +1,15 @@
+package javaBasic3.ch06.sec11;
+
+public class CalculatorExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Calculator calculator = new Calculator(); // 1단계. 객체화(힙메모리에올림)
+		
+		calculator.powerOn();
+		calculator.powerOff();
+		
+	}
+
+}

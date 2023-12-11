@@ -1,6 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.util.Date"/>
+    <fullyQualifiedTypeName name="java.sql.Date"/>
+    <fullyQualifiedTypeName name="java.text.SimpleDateFormat"/>
+    <fullyQualifiedTypeName name="javaBasic3.ch06.sec10.exam01.Calculator"/>
+    <fullyQualifiedTypeName name="javaBasic3.ch06.sec04.AA"/>
+    <fullyQualifiedTypeName name="javaBasic3.ch06.sec05.Singleton"/>
+    <fullyQualifiedTypeName name="javaBasic3.ch06.sec07.MemberServices"/>
     <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="javaBasic3.ch06.sec09.ShopService"/>
+    <fullyQualifiedTypeName name="javaBasic3.ch06.sec09.SportCar"/>
+    <fullyQualifiedTypeName name="javaBasic3.ch06.sec11.Calculator"/>
+    <fullyQualifiedTypeName name="javaBasic3.ch06.sec13.Television"/>
+    <fullyQualifiedTypeName name="javaBasic3.ch06.sec14.BankApplication"/>
     <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="javaBasic3.ch06.sec14.Account"/>
 </qualifiedTypeNameHistroy>
