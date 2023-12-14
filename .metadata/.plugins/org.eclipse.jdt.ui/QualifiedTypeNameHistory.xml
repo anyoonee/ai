@@ -21,4 +21,12 @@
     <fullyQualifiedTypeName name="javaBasic4.ch07.sec03.Calculator"/>
     <fullyQualifiedTypeName name="javaBasic4.ch07.sec03.Computer"/>
     <fullyQualifiedTypeName name="javaBasic4.ch07.sec04.SupersonicAirplane"/>
+    <fullyQualifiedTypeName name="javaBasic4.ch07.sec14.Bus"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="javaBasic4.ch07.sec14.Vehicle"/>
+    <fullyQualifiedTypeName name="javaBasic4.ch07.sec14.Driver"/>
+    <fullyQualifiedTypeName name="java.lang.AbstractMethodError"/>
+    <fullyQualifiedTypeName name="javaBasic5.ch08.sec02.RemoteControl"/>
+    <fullyQualifiedTypeName name="javaBasic5.ch08.sec03.Vehicle"/>
+    <fullyQualifiedTypeName name="javaBasic5.ch08.sec03.Train"/>
 </qualifiedTypeNameHistroy>
