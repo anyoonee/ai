@@ -29,4 +29,8 @@
     <fullyQualifiedTypeName name="javaBasic5.ch08.sec02.RemoteControl"/>
     <fullyQualifiedTypeName name="javaBasic5.ch08.sec03.Vehicle"/>
     <fullyQualifiedTypeName name="javaBasic5.ch08.sec03.Train"/>
+    <fullyQualifiedTypeName name="javaBasic5.ch08.sec03.Remocon"/>
+    <fullyQualifiedTypeName name="javaBasic5.ch08.sec03.Soundable"/>
+    <fullyQualifiedTypeName name="javaBasic5.ch08.sec03.DataAccessObject"/>
+    <fullyQualifiedTypeName name="javaBasic6.ch09.sec01.AA.BB"/>
 </qualifiedTypeNameHistroy>
