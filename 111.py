@@ -33,5 +33,6 @@ while a1 !=thinkNumber :
       c += 1
     print(f"{result}")
     a1 = int(input("답은?"))
+    
 result = "정답입니다."
 print(f"{c}번 만에 찾았습니다.")
