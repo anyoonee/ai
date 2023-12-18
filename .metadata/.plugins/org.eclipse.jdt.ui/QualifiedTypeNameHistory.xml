@@ -33,4 +33,10 @@
     <fullyQualifiedTypeName name="javaBasic5.ch08.sec03.Soundable"/>
     <fullyQualifiedTypeName name="javaBasic5.ch08.sec03.DataAccessObject"/>
     <fullyQualifiedTypeName name="javaBasic6.ch09.sec01.AA.BB"/>
+    <fullyQualifiedTypeName name="javaBasic6.ch09.sec04.Outter.Inner"/>
+    <fullyQualifiedTypeName name="javaBasic6.ch09.sec06.RemoteControl"/>
+    <fullyQualifiedTypeName name="java.lang.NullPointerException"/>
+    <fullyQualifiedTypeName name="java.lang.ClassNotFoundException"/>
+    <fullyQualifiedTypeName name="java.lang.ArrayIndexOutOfBoundsException"/>
+    <fullyQualifiedTypeName name="java.lang.ArithmeticException"/>
 </qualifiedTypeNameHistroy>
