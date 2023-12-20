@@ -29,3 +29,4 @@ print(color[1],color[4],color[6])
 for i in color :
   print(i, end=" ")
   print("나는%s를 좋아합니다."%i)
+print(len(color)) #len(리스트)리스트 요소의 갯수
