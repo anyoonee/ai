@@ -1,15 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="javaBasic3.ch06.sec13.Television"/>
-    <fullyQualifiedTypeName name="javaBasic3.ch06.sec14.BankApplication"/>
-    <fullyQualifiedTypeName name="javaBasic3.ch06.sec14.Account"/>
-    <fullyQualifiedTypeName name="javaBasic4.ch07.sec01.SmartPhone"/>
-    <fullyQualifiedTypeName name="javaBasic4.ch07.sec02.Teacher"/>
-    <fullyQualifiedTypeName name="javaBasic4.ch07.sec03.Calculator"/>
-    <fullyQualifiedTypeName name="javaBasic4.ch07.sec03.Computer"/>
-    <fullyQualifiedTypeName name="javaBasic4.ch07.sec04.SupersonicAirplane"/>
-    <fullyQualifiedTypeName name="javaBasic4.ch07.sec14.Bus"/>
-    <fullyQualifiedTypeName name="java.lang.Override"/>
     <fullyQualifiedTypeName name="javaBasic4.ch07.sec14.Vehicle"/>
     <fullyQualifiedTypeName name="javaBasic4.ch07.sec14.Driver"/>
     <fullyQualifiedTypeName name="java.lang.AbstractMethodError"/>
@@ -58,6 +48,16 @@
     <fullyQualifiedTypeName name="java.util.Iterator"/>
     <fullyQualifiedTypeName name="java.util.NavigableSet"/>
     <fullyQualifiedTypeName name="java.util.SortedSet"/>
-    <fullyQualifiedTypeName name="java.util.TreeSet"/>
     <fullyQualifiedTypeName name="java.lang.Comparable"/>
+    <fullyQualifiedTypeName name="java.util.TreeSet"/>
+    <fullyQualifiedTypeName name="javaApp2.ch15.sec02.ComparatorEx"/>
+    <fullyQualifiedTypeName name="java.util.Comparator"/>
+    <fullyQualifiedTypeName name="java.util.Stack"/>
+    <fullyQualifiedTypeName name="javaApp3.ch13.sec01.InterImpl"/>
+    <fullyQualifiedTypeName name="javaApp3.ch13.sec01.Applicant"/>
+    <fullyQualifiedTypeName name="javaApp3.ch13.sec01.Student"/>
+    <fullyQualifiedTypeName name="javaApp3.ch13.sec01.HighStudent"/>
+    <fullyQualifiedTypeName name="javaApp4.Inter01Impl"/>
+    <fullyQualifiedTypeName name="java.lang.FunctionalInterface"/>
+    <fullyQualifiedTypeName name="javaApp4.ch16.sec02.Operator"/>
 </qualifiedTypeNameHistroy>
