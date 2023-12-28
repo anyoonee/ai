@@ -143,11 +143,18 @@ print(s)
 n=int(input("n값을 입력해주세요:"))
 
 def decimalFun(n1) :
-    de=[]
+    dL=[]
     for i in range(2,n1,1):
-      
-          de.append(i)
-          break
+          
+          x = True
+          for j in range(2,i,1):
+            if i % j == 0 :
+              x =False
+              break
+          if x:
+
+            dL.append(i)
+    return dL      
 
 
 decimalFun(n)
@@ -163,3 +170,17 @@ def engQuiz(eng_dict):
       print("틀렸어요!")
 
 engQuiz(eng_dict)
+
+# 심화문제 7-3
+
+n=int(input("n값을 입력하세요:"))
+
+def nMul(n) :
+  result = []
+  for i in range(1,n+1):
+    result.append(i*i)
+  return result
+
+
+resultList = nMul(n)
+print(resultList)
