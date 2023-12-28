@@ -1,15 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="javaBasic4.ch07.sec14.Vehicle"/>
-    <fullyQualifiedTypeName name="javaBasic4.ch07.sec14.Driver"/>
-    <fullyQualifiedTypeName name="java.lang.AbstractMethodError"/>
-    <fullyQualifiedTypeName name="javaBasic5.ch08.sec02.RemoteControl"/>
-    <fullyQualifiedTypeName name="javaBasic5.ch08.sec03.Vehicle"/>
-    <fullyQualifiedTypeName name="javaBasic5.ch08.sec03.Train"/>
-    <fullyQualifiedTypeName name="javaBasic5.ch08.sec03.Remocon"/>
-    <fullyQualifiedTypeName name="javaBasic5.ch08.sec03.Soundable"/>
-    <fullyQualifiedTypeName name="javaBasic5.ch08.sec03.DataAccessObject"/>
-    <fullyQualifiedTypeName name="javaBasic6.ch09.sec01.AA.BB"/>
     <fullyQualifiedTypeName name="javaBasic6.ch09.sec04.Outter.Inner"/>
     <fullyQualifiedTypeName name="javaBasic6.ch09.sec06.RemoteControl"/>
     <fullyQualifiedTypeName name="java.lang.NullPointerException"/>
@@ -58,6 +48,16 @@
     <fullyQualifiedTypeName name="javaApp3.ch13.sec01.Student"/>
     <fullyQualifiedTypeName name="javaApp3.ch13.sec01.HighStudent"/>
     <fullyQualifiedTypeName name="javaApp4.Inter01Impl"/>
-    <fullyQualifiedTypeName name="java.lang.FunctionalInterface"/>
     <fullyQualifiedTypeName name="javaApp4.ch16.sec02.Operator"/>
+    <fullyQualifiedTypeName name="java.lang.FunctionalInterface"/>
+    <fullyQualifiedTypeName name="java.io.FileNotFoundException"/>
+    <fullyQualifiedTypeName name="java.io.FileReader"/>
+    <fullyQualifiedTypeName name="java.io.FileInputStream"/>
+    <fullyQualifiedTypeName name="java.io.InputStream"/>
+    <fullyQualifiedTypeName name="java.io.OutputStream"/>
+    <fullyQualifiedTypeName name="java.io.BufferedInputStream"/>
+    <fullyQualifiedTypeName name="java.io.DataInputStream"/>
+    <fullyQualifiedTypeName name="java.io.FileOutputStream"/>
+    <fullyQualifiedTypeName name="java.io.BufferedOutputStream"/>
+    <fullyQualifiedTypeName name="java.io.ObjectOutputStream"/>
 </qualifiedTypeNameHistroy>
