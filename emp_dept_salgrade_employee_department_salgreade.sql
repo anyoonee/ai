@@ -55,6 +55,13 @@ INSERT INTO EMP VALUES(1011, '조향기', '사원', 1007, to_date('2007-03-01','yyyy-
 INSERT INTO EMP VALUES(1012, '강혜정', '사원', 1006, to_date('2007-08-09','yyyy-mm-dd'), 300, NULL, 20);
 INSERT INTO EMP VALUES(1013, '박중훈', '부장', 1003, to_date('2002-10-09','yyyy-mm-dd'), 560, NULL, 20);
 INSERT INTO EMP VALUES(1014, '조인성', '사원', 1006, to_date('2007-11-09','yyyy-mm-dd'), 250, NULL, 10);
+INSERT INTO EMP VALUES(1015, '조인성', '사원', 1006, to_date('2007-11-09','yyyy-mm-dd'), 250, NULL, 10);
+INSERT INTO EMP VALUES(1016, '조인성', '사원', 1006, null, 250, NULL, 10);
+INSERT INTO EMP VALUES(1017, '조인성', '사원', 1006, null, 250, NULL, 10);
+INSERT INTO EMP VALUES(1018, null, null, 1006, null, 250, NULL, 10);
+INSERT INTO EMP VALUES(1019, null, null, 1006, null, 250, NULL, 10);
+
+commit;
 
 -- 급여 테이블에 샘플 데이터 추가하기
 INSERT INTO SALGRADE VALUES (1, 700,1200);
