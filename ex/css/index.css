@@ -1,0 +1,36 @@
+* {
+  font-family: 'Dongle', sans-serif;
+}
+html{
+  background-size: cover;
+}
+body{
+  margin: 0;
+}
+#header{
+  z-index: 1;
+  margin: 0 auto;
+  background-color: rgb(255,255,255,0.8);
+  height: 40px;
+  width: 100%;
+  box-shadow: 0, 0.6px rgb(155,155,155);
+  position: fixed;
+  top: -1px;
+}
+.mainBar{
+  margin:0 auto;
+  width: 1200px;
+
+}
+.container div {
+  float:none;
+  padding: 9px 10px;
+}
+.container div a {
+  text-decoration: none;
+  font-size: medium;
+  color: black;
+}
+.container div a:hover {
+  opacity: 50%;
+}
