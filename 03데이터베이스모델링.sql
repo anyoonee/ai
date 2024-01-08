@@ -4,6 +4,7 @@ create table card(
     cardKind varchar2(8),
     orderDate date,
     limitAmount number(15),
+    
     paymentDate date
 );
 
