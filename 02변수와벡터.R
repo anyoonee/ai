@@ -122,6 +122,4 @@ mean(d2-d1)
 sort(d1,decreasing = TRUE)
 #(9)
 
-# 문제 10
-#(1)
 
