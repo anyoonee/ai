@@ -40,12 +40,12 @@ for( i in 1:ncol(x) ){
   cat( i, '열  ', sum( this.na ), '\n')
 }
 
-# result
-1열 0 
-2열 1
-3열 2
-4열 1
-5열 0
+# # result
+# 1열 0 
+# 2열 1
+# 3열 2
+# 4열 1
+# 5열 0
 
 ## 행에 있는 것 결측값의 갯수 세기( 1행~5행까지 구하기 )
 nrow(x) # 행의 수 
@@ -55,12 +55,12 @@ for( i in 1:5 ){
 }
 
 
-# result
-1행 2 
-2행 1
-3행 1
-4행 0
-5행 0
+# # result
+# 1행 2 
+# 2행 1
+# 3행 1
+# 4행 0
+# 5행 0
 
 ds <- mtcars
 ds[2,3] <- NA; ds[3,1] <- NA; ds[2,4] <- NA; ds[4,3] <- NA;
@@ -358,13 +358,31 @@ aggregate(mtcars,by=list(cyl=mtcars$cyl, vs=mtcars$vs), FUN=mean())
 
 #문제 7
 #1 Ionosphere 데이터셋을 myds에 저장하시오.
+install.packages('mlbench')
 library(mlbench)
 data("Ionosphere")
 myds <- Ionosphere
 myds
 #2 myds에서 class와 v1열의 값을 그룹으로 하여 v3~v10열의 값들의 표준편차를 출력하시오
-aggregate(myds[,3:10], by=list(myds$Class,myds$v1), FUN=sd)
+head(myds)
+aggregate(myds[,3:10], by=list(v1=myds$v1,class=myds$Class), FUN=sd)
 
+
+#######################################
+## 병합 - merge(데이터셋1, 데이터셋2,
+##              all=T (외부조인) 또는 all.x=T (오른쪽 외부조인)
+##########################################
+x <- data.frame(name=c('a','b','c'), math=c(90,80,40))
+x
+y <- data.frame(name=c('a','b','d'),korean=c(75,60,90))
+y
+z <- merge(x,y,by=c('name')) # 2개의 공통인 열만 머지됨 (inner join 내부조인)
+z
+z1 <- merge(x,y,by=c('name'),all=T) # 2개의 모든 데이터값을 조인. 없으면 NA값이 된다.
+z1
+Z2 <- merge(x,y,by=c('name'),all.x=T) # 왼쪽에 있는 x의 데이터셋 모두 조인
+z3 <-  merge( x, y, by=c('name'), all.y = T) # 오른쪽에 있는 y의 데이터셋은 모두 조인되고 왼쪽은 안됨 (right outter join)
+z3
 
 #문제14
 #1 
@@ -379,14 +397,31 @@ head(subway)
 head(subway.latlong)
 #2
 agg <- aggregate(subway.tot[,c('on_tot','off_tot')], by=list(역이름=subway.tot$stat_name, 날짜=subway.tot$income_date),FUN=sum)
+head(agg)
+tail(agg)
 #3
-year.2011 <- subway.tot$income_date >= 20110101 & subway.tot$income_date <= 20111231
-year.2011
+#(1) 2022년도만 추출
+condi <- subway.tot$income_date >= 20110101 & subway.tot$income_date <= 20111231
+#(2) 집계 합수
+condi <- aggregate(subway.tot[year.2011,c('on_tot','off_tot','income_date')], by=list(역이름=subway.tot$stat_name, 날짜=subway.tot$income_date),FUN=sum)
 
-agg.2011 <- aggregate(subway.tot[year.2011,c('on_tot','off_tot','income_date')], by=list(역이름=subway.tot$stat_name, 날짜=subway.tot$income_date),FUN=sum)
+#4 subway.tot에서 2011년도에 대해서 LINE_NUM(호선)별 on_tot(탑승 인원)과 off_tot(하차 인원)을 집계(합계)하여 출력하시오.
+aggregate( subway.tot[ condi, c('on_tot', 'off_tot') ],by=list(호선별=subway.tot$LINE_NUM[condi]),FUN=sum)
 
+#문제15
+#1 authors와 books를 생성하고 authors와 books의 내용을 출력
+authors <- data.frame(surname = c("Twein", "Venables", "Tierney", "Ripley", "McNeil"),
+                      nationality = c("US", "Australia", "US", "UK", "Australia"),
+                      retired = c("yes", rep("no", 4)))
+books <- data.frame(name = c("Johns", "Venables", "Tierney", "Ripley", "Ripley", "McNeil"),
+                    title = c("Exploratory Data Analysis","Modern Applied Statistics ...","LISP-STAT","Spatial Statistics", "Stochastic Simulation","Interactive Data Analysis"),other.author = c(NA, "Ripley", NA, NA, NA, NA))
+#2 surname과 name을 공통 열로 하여 authors와 books를 병합하여 출력하시오(두 데이터프레임에서 공통 열의 값이 일치하는 것들만 병합).
+merge(authors,books, by.x=c('surname'), by.y = c('name'))
+#3 surname과 name을 공통 열로 하여 authors와 books를 병합하여 출력하되 authors의 행들이 모두 표시되도록 하시오.
 
-
+#4 surname과 name을 공통 열로 하여 authors와 books를 병합하여 출력하되 books의 행들은 모두 표시되도록 하시오.
+ 
+#5 surname과 other.author를 공통 열로 하여 authors와 books를 병합하여 출력하시오.
 
 
 
